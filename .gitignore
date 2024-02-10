@@ -1,0 +1,14 @@
+# KiCad .gitignore
+
+# Backup archives
+*-backups/
+
+#Lock files
+~*.lck
+
+# Remove Autosave files
+_autosave-*
+\#auto_saved_files#
+
+#Cache
+fp-info-cache
