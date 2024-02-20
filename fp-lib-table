@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "$Local")(type "KiCad")(uri "${KIPRJMOD}/lib/Local.pretty")(options "")(descr "TMUX1112PWR"))
+  (lib (name "$Local")(type "KiCad")(uri "${KIPRJMOD}/lib/Local.pretty")(options "")(descr "Local"))
 )

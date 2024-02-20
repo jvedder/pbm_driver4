@@ -1448,9 +1448,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR05") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR020") (unit 1)
-        )
       )
     )
   )
@@ -1461,10 +1458,10 @@
     (property "Reference" "C2" (at 58.42 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1nF" (at 58.42 49.53 0)
+    (property "Value" "0.1uF" (at 58.42 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 55.5752 52.07 0)
+    (property "Footprint" "$Local:C_0603_1608Metric" (at 55.5752 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 48.26 0)
@@ -1479,9 +1476,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "C2") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "C4") (unit 1)
         )
       )
     )
@@ -1511,9 +1505,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR015") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR030") (unit 1)
-        )
       )
     )
   )
@@ -1527,7 +1518,7 @@
     (property "Value" "0.510" (at 238.76 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 237.236 131.064 90)
+    (property "Footprint" "$Local:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 237.236 131.064 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 236.22 130.81 0)
@@ -1558,9 +1549,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R4") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R8") (unit 1)
-        )
       )
     )
   )
@@ -1574,7 +1562,7 @@
     (property "Value" "100K" (at 194.31 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 192.786 131.064 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 192.786 131.064 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 130.81 0)
@@ -1602,9 +1590,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R24") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R28") (unit 1)
-        )
       )
     )
   )
@@ -1618,7 +1603,7 @@
     (property "Value" "0.510" (at 238.76 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 237.236 58.674 90)
+    (property "Footprint" "$Local:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 237.236 58.674 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 236.22 58.42 0)
@@ -1649,9 +1634,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R2") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R6") (unit 1)
-        )
       )
     )
   )
@@ -1679,9 +1661,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR08") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1711,9 +1690,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR02") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR017") (unit 1)
-        )
       )
     )
   )
@@ -1727,7 +1703,7 @@
     (property "Value" "ADA4099-2" (at 36.83 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 38.1 46.99 0)
+    (property "Footprint" "$Local:SOIC-8_3.9x4.9mm_P1.27mm" (at 38.1 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 46.99 0)
@@ -1761,9 +1737,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "U1") (unit 3)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "U3") (unit 3)
-        )
       )
     )
   )
@@ -1777,7 +1750,7 @@
     (property "Value" "PSMN4R0-30YLD" (at 240.03 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:LFPAK56" (at 237.49 44.45 0)
+    (property "Footprint" "$Local:LFPAK56" (at 237.49 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN4R0-30YLD.pdf" (at 233.68 44.45 0)
@@ -1799,9 +1772,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "Q2") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "Q6") (unit 1)
-        )
       )
     )
   )
@@ -1815,7 +1785,7 @@
     (property "Value" "ADA4099-2" (at 208.28 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 208.28 44.45 0)
+    (property "Footprint" "$Local:SOIC-8_3.9x4.9mm_P1.27mm" (at 208.28 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 208.28 44.45 0)
@@ -1849,9 +1819,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "U1") (unit 2)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "U3") (unit 2)
-        )
       )
     )
   )
@@ -1865,7 +1832,7 @@
     (property "Value" "100" (at 147.32 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 147.574 43.434 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 147.574 43.434 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 44.45 0)
@@ -1893,9 +1860,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R11") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R15") (unit 1)
-        )
       )
     )
   )
@@ -1909,7 +1873,7 @@
     (property "Value" "100K" (at 195.58 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 194.056 58.674 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 194.056 58.674 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 193.04 58.42 0)
@@ -1936,9 +1900,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R22") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R26") (unit 1)
         )
       )
     )
@@ -1968,9 +1929,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR03") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR018") (unit 1)
-        )
       )
     )
   )
@@ -1984,7 +1942,7 @@
     (property "Value" "PSMN4R0-30YLD" (at 165.1 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:LFPAK56" (at 162.56 116.84 0)
+    (property "Footprint" "$Local:LFPAK56" (at 162.56 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN4R0-30YLD.pdf" (at 158.75 116.84 0)
@@ -2005,9 +1963,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "Q3") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "Q7") (unit 1)
         )
       )
     )
@@ -2037,9 +1992,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR013") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR028") (unit 1)
-        )
       )
     )
   )
@@ -2053,7 +2005,7 @@
     (property "Value" "ADA4099-2" (at 208.28 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 208.28 116.84 0)
+    (property "Footprint" "$Local:SOIC-8_3.9x4.9mm_P1.27mm" (at 208.28 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 208.28 116.84 0)
@@ -2087,9 +2039,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "U2") (unit 2)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "U4") (unit 2)
-        )
       )
     )
   )
@@ -2118,9 +2067,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR012") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR027") (unit 1)
-        )
       )
     )
   )
@@ -2134,7 +2080,7 @@
     (property "Value" "ADA4099-2" (at 68.58 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 69.85 46.99 0)
+    (property "Footprint" "$Local:SOIC-8_3.9x4.9mm_P1.27mm" (at 69.85 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 69.85 46.99 0)
@@ -2168,9 +2114,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "U2") (unit 3)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "U4") (unit 3)
-        )
       )
     )
   )
@@ -2199,9 +2142,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR04") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR019") (unit 1)
-        )
       )
     )
   )
@@ -2215,7 +2155,7 @@
     (property "Value" "100K" (at 114.3 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 112.776 131.064 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 112.776 131.064 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 130.81 0)
@@ -2243,9 +2183,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R23") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R27") (unit 1)
-        )
       )
     )
   )
@@ -2256,10 +2193,10 @@
     (property "Reference" "C21" (at 41.91 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1nF" (at 41.91 115.57 0)
+    (property "Value" "0.1uF" (at 41.91 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 39.0652 118.11 0)
+    (property "Footprint" "$Local:C_0603_1608Metric" (at 39.0652 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 114.3 0)
@@ -2274,9 +2211,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "C10") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "C11") (unit 1)
         )
       )
     )
@@ -2305,9 +2239,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR010") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2352,9 +2283,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "U10") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "U11") (unit 1)
-        )
       )
     )
   )
@@ -2368,7 +2296,7 @@
     (property "Value" "PSMN4R0-30YLD" (at 240.03 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:LFPAK56" (at 237.49 116.84 0)
+    (property "Footprint" "$Local:LFPAK56" (at 237.49 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN4R0-30YLD.pdf" (at 233.68 116.84 0)
@@ -2389,9 +2317,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "Q4") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "Q8") (unit 1)
         )
       )
     )
@@ -2421,9 +2346,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR011") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR026") (unit 1)
-        )
       )
     )
   )
@@ -2451,9 +2373,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR09") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2483,9 +2402,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR014") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR029") (unit 1)
-        )
       )
     )
   )
@@ -2499,7 +2415,7 @@
     (property "Value" "ADA4099-2" (at 133.35 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 133.35 116.84 0)
+    (property "Footprint" "$Local:SOIC-8_3.9x4.9mm_P1.27mm" (at 133.35 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 116.84 0)
@@ -2533,9 +2449,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "U2") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "U4") (unit 1)
-        )
       )
     )
   )
@@ -2564,9 +2477,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR07") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR022") (unit 1)
-        )
       )
     )
   )
@@ -2580,7 +2490,7 @@
     (property "Value" "100" (at 147.32 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 147.574 115.824 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 147.574 115.824 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 116.84 0)
@@ -2608,9 +2518,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R13") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R17") (unit 1)
-        )
       )
     )
   )
@@ -2624,7 +2531,7 @@
     (property "Value" "100" (at 222.25 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 222.504 43.434 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 222.504 43.434 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 44.45 0)
@@ -2652,9 +2559,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R12") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R16") (unit 1)
-        )
       )
     )
   )
@@ -2668,7 +2572,7 @@
     (property "Value" "100" (at 222.25 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 222.504 115.824 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 222.504 115.824 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 116.84 0)
@@ -2695,9 +2599,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R14") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R18") (unit 1)
         )
       )
     )
@@ -2727,9 +2628,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR06") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR021") (unit 1)
-        )
       )
     )
   )
@@ -2743,7 +2641,7 @@
     (property "Value" "PSMN4R0-30YLD" (at 165.1 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:LFPAK56" (at 162.56 44.45 0)
+    (property "Footprint" "$Local:LFPAK56" (at 162.56 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN4R0-30YLD.pdf" (at 158.75 44.45 0)
@@ -2765,9 +2663,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "Q1") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "Q5") (unit 1)
-        )
       )
     )
   )
@@ -2781,7 +2676,7 @@
     (property "Value" "0.510" (at 163.83 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 162.306 131.064 90)
+    (property "Footprint" "$Local:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 162.306 131.064 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 130.81 0)
@@ -2812,9 +2707,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R3") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R7") (unit 1)
-        )
       )
     )
   )
@@ -2828,7 +2720,7 @@
     (property "Value" "100K" (at 115.57 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 114.046 58.674 90)
+    (property "Footprint" "$Local:R_0603_1608Metric" (at 114.046 58.674 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 58.42 0)
@@ -2856,9 +2748,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R21") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R25") (unit 1)
-        )
       )
     )
   )
@@ -2869,10 +2758,10 @@
     (property "Reference" "C1" (at 26.67 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1nF" (at 26.67 49.53 0)
+    (property "Value" "0.1uF" (at 26.67 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 23.8252 52.07 0)
+    (property "Footprint" "$Local:C_0603_1608Metric" (at 23.8252 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 22.86 48.26 0)
@@ -2888,9 +2777,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "C1") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "C3") (unit 1)
-        )
       )
     )
   )
@@ -2904,7 +2790,7 @@
     (property "Value" "0.510" (at 163.83 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 162.306 58.674 90)
+    (property "Footprint" "$Local:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (at 162.306 58.674 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 58.42 0)
@@ -2935,9 +2821,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "R1") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "R5") (unit 1)
-        )
       )
     )
   )
@@ -2951,7 +2834,7 @@
     (property "Value" "ADA4099-2" (at 133.35 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 133.35 44.45 0)
+    (property "Footprint" "$Local:SOIC-8_3.9x4.9mm_P1.27mm" (at 133.35 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 44.45 0)
@@ -2985,9 +2868,6 @@
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "U1") (unit 1)
         )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "U3") (unit 1)
-        )
       )
     )
   )
@@ -3015,9 +2895,6 @@
         )
         (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/cae14b87-4c10-4309-b8c6-8f8334cc405d"
           (reference "#PWR01") (unit 1)
-        )
-        (path "/c74719ba-f06a-44f5-9938-a8dc2ea94ffa/afb5a5f7-8d8f-4663-8a4b-b51941daccfa"
-          (reference "#PWR016") (unit 1)
         )
       )
     )
